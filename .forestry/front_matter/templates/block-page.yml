@@ -1,4 +1,12 @@
 ---
 label: Block Page
 hide_body: true
-fields: []
+fields:
+- name: layer
+  type: blocks
+  label: Layer
+  template_types:
+  - site-info
+  config:
+    min: 
+    max: 
