@@ -1,4 +1,23 @@
 ---
 label: Hero Block
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
