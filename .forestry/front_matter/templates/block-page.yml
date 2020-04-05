@@ -6,7 +6,9 @@ fields:
   type: blocks
   label: Layer
   template_types:
-  - site-info
+  - feature
+  - hero-block
+  - list-block
   config:
     min: 
     max: 
