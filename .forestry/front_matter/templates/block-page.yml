@@ -2,6 +2,20 @@
 label: Block Page
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subheader
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: subHeader
 - name: layer
   type: blocks
   label: Layer
