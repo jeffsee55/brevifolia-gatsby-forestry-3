@@ -28,4 +28,5 @@ fields:
     max: 
 pages:
 - blocks/ListItems.md
+- blocks/home.md
 - blocks/okkk-her-we-go.md
